@@ -12,9 +12,9 @@ jobs:
 
       # Deploy to local repo
       - name: Deploy
-        uses: s0/git-publish-subdir-action@develop
+        uses: s0/git-publish-subdir-action@v2.4.0
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: public/blog
+          FOLDER: public
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
