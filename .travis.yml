@@ -1,3 +1,5 @@
+language: generic
+
 deploy:
   provider: pages
   local_dir: public/blog
